@@ -1,0 +1,12 @@
+html
+  head
+    title= Tycoon
+    link(href="assets/css/bootstrap.css", rel="stylesheet", type="text/css")
+  body
+    .container-fluid
+      .row-fluid
+        block content
+    script(type="text/javascript", src="https://code.jquery.com/jquery-2.1.1.js")
+    script(type="text/javascript", src="assets/js/bootstrap.js")
+    script(src='/socket.io/socket.io.js')
+    script(type="text/javascript", src="assets/js/game.js")

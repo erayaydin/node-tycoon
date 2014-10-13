@@ -1,0 +1,29 @@
+{
+  "name": "tycoon",
+  "version": "0.0.1",
+  "description": "Tycoon NodeJS",
+  "dependencies": {
+    "socket.io": "latest",
+    "express": "latest",
+    "jade": "latest"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erayaydin/node-tycoon"
+  },
+  "keywords": [
+    "node",
+    "tycoon",
+    "game"
+  ],
+  "author": "Eray AYDIN <laravel-artisan@yandex.com.tr> (http://erayaydin.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erayaydin/node-tycoon/issues"
+  },
+  "homepage": "https://github.com/erayaydin/node-tycoon"
+}
